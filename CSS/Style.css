@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+}
+
+.d-select {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+
+
+.ALERT_ENCRYPT,
+.ALERT_DECRYPT,
+.ALERT_COPY {
+  position: relative;
+  display: inline-block;
+  padding: 0.2%;
+  border: solid 2px black;
+  text-align: center;
+  border-radius: 10px;
+  font-size: large;
+  background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+  opacity: 0%;
+
+}
+
+.ALERT_ENCRYPT {
+
+  top: 29em;
+  left: 25.10em;
+  z-index: 1;
+
+
+}
+
+.ALERT_DECRYPT {
+
+  top: 29em;
+  left: 34.10em;
+  z-index: 1;
+}
+
+.ALERT_COPY {
+
+  top: 28em;
+  left: 66.7em;
+  z-index: 1;
+
+}
+
+
+.Alura-bar {
+  position: relative;
+  width: 1920px;
+  max-width: 1920px;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  padding: 10px 0;
+
+}
+
+
+.image_bar,
+.check-img,
+.error-img {
+  position: relative;
+  border-radius: 50%;
+}
+
+.image_bar {
+  left: 50%;
+  width: 48PX;
+  height: 48PX;
+  z-index: 1;
+}
+
+.check-img {
+  bottom: 0.17em;
+  left: 47.45%;
+  width: 42PX;
+  height: 42PX;
+  z-index: 0;
+  opacity: 0%;
+}
+
+.error-img {
+  bottom: 0.30em;
+  left: 45.16%;
+  width: 39PX;
+  height: 39PX;
+  z-index: 0;
+  opacity: 0%;
+}
+
+
+
+
+.parent {
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  width: 1920px;
+  height: 783px;
+}
+
+
+
+.text-encrypt {
+  position: relative;
+  top: 0%;
+  left: 12%;
+  width: 850px;
+  height: 89%;
+
+}
+
+.text-contenedor0 {
+  position: absolute;
+  top: 10%;
+  left: 11%;
+  width: 80%;
+  height: 58%;
+  background-color: white;
+  border-radius: 2%;
+  border: 3px solid #000000;
+}
+
+#textArea0 {
+  position: relative;
+  width: 70%;
+  height: 20.3%;
+  top: 30%;
+  left: 15%;
+  padding-top: 10%;
+  resize: none;
+  text-size-adjust: 10px;
+  background-color: transparent;
+  text-align: center;
+  text-decoration-line: underline;
+  outline: none;
+  border-style: none;
+  font-size: 30PX;
+
+}
+
+
+
+.buttons {
+  position: relative;
+  top: 80%;
+  margin-top: 10px;
+  margin-left: 8.32em;
+}
+
+#btn-encrypt {
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+#btn-encrypt:hover,
+#btn-decrypt:hover,
+#btn-copy:hover {
+  border-color: #000000;
+  border-style: solid;
+  border-width: 3px;
+}
+
+#btn-decrypt {
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+#btn-copy {
+  position: absolute;
+  left: 34%;
+  bottom: 15%;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  display: none;
+  z-index: 1;
+
+}
+
+
+.text-decrypt {
+  position: relative;
+
+  bottom: 41.6em;
+  left: 65%;
+  width: 34.5em;
+  height: 42em;
+  resize: none;
+
+}
+
+.text-contenedor1 {
+  position: relative;
+  width: 25.25em;
+  height: 40.8em;
+  top: 1%;
+  left: 15%;
+  border-radius: 32px;
+  background: #FFFFFF;
+  border-style: solid;
+  box-shadow: 0px 24px 32px -8px #0000003d;
+}
+
+#textArea1 {
+  position: relative;
+  width: 100%;
+  height: 5em;
+  top: 45%;
+  left: 0%;
+  border-style: none;
+  font-size: 30px;
+  resize: none;
+  text-size-adjust: 10px;
+  text-align: center;
+  text-decoration-line: none;
+  outline: none;
+  z-index: 0;
+}
+
+.munheco,
+.munheco1,
+.fatal-search {
+  position: absolute;
+  bottom: 40%;
+  left: 23%;
+  width: 330px;
+  height: 300px;
+  z-index: 1;
+
+}
+
+
+.munheco1 {
+  opacity: 0%;
+
+}
+
+.fatal-search {
+  opacity: 0%;
+  z-index: 1;
+
+}
+
+
+.no-mesagge,
+.checklist,
+.errorE,
+.errorD {
+  position: absolute;
+  bottom: 15%;
+  left: 22%;
+  z-index: 1;
+}
+
+
+.checklist {
+  top: 58%;
+  left: 28%;
+  opacity: 0%;
+  z-index: 1;
+}
+
+.errorD {
+  top: 65%;
+  left: 28%;
+  opacity: 0%;
+  z-index: 1;
+}
+
+.errorE {
+  top: 65%;
+  left: 28%;
+  opacity: 0%;
+  z-index: 1;
+
+}
+
+
+
+.footer {
+  position: relative;
+  width: 1920px;
+  height: 87px;
+  bottom: 672px;
+  background-color: #191919;
+}
+
+.github-footer {
+  position: relative;
+  top: 10%;
+  left: 50%;
+  width: 70PX;
+  height: 70PX;
+  z-index: 1;
+}

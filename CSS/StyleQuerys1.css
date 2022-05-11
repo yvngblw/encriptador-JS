@@ -1,0 +1,168 @@
+@media only screen and (max-height:970px) {
+  .parent {
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    width: 1920px;
+    height: 810px;
+  }
+
+  
+  .text-contenedor0 {
+    top: 12%;
+    left: 11%;
+  
+  }
+
+  .ALERT_ENCRYPT {
+
+    top: 33em;
+
+  }
+
+  .ALERT_DESCRYPT {
+    top: 33em;
+  }
+
+  .ALERT_COPY {
+
+    top: 29.5em;
+
+  }
+
+  .buttons {
+    top: 82%;
+  }
+
+  .text-decrypt {
+    position: relative;
+
+    bottom: 43.1em;
+    left: 65%;
+    width: 34.5em;
+    height: 42em;
+    resize: none;
+
+  }
+
+  .footer {
+    position: relative;
+    width: 1920px;
+    height: 87px;
+    bottom: 77.40%;
+    background-color: #191919;
+  }
+
+}
+
+@media only screen and (min-height:971px){
+  .parent {
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    width: 1920px;
+    height: 820px;
+  }
+
+  
+  .contenedor1 {
+    top: 12%;
+    left: 11%;
+  
+  }
+
+
+
+  .ALERT_ENCRYPT {
+
+    top: 33em;
+
+  }
+
+  .ALERT_DECRYPT {
+    top: 33em;
+  }
+
+  .ALERT_COPY {
+
+    top: 29.5em;
+
+  }
+
+  .buttons {
+    top: 82%;
+  }
+
+  .text-decrypt {
+    position: relative;
+
+    bottom: 44em;
+    left: 65%;
+    width: 34.5em;
+    height: 42em;
+    resize: none;
+
+  }
+
+  .footer {
+    position: relative;
+    width: 1920px;
+    height: 87px;
+    bottom: 76.23%;
+    background-color: #191919;
+  }
+
+}
+
+@media only screen and (min-height:980px){
+  .parent {
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    width: 1920px;
+    height: 849px;
+  }
+
+  
+  .text-contenedor0 {
+    top: 12%;
+    left: 11%;
+  
+  }
+
+
+
+  .ALERT_ENCRYPT {
+
+    top: 34em;
+
+  }
+
+  .ALERT_DECRYPT {
+    top: 34em;
+  }
+
+  .ALERT_COPY {
+
+    top: 30.5em;
+
+  }
+
+  .buttons {
+    top: 82%;
+  }
+
+  .text-decrypt {
+    position: relative;
+
+    bottom: 44.3em;
+    left: 65%;
+    width: 34.5em;
+    height: 42em;
+    resize: none;
+
+  }
+
+  .footer {
+    position: relative;
+    width: 1920px;
+    height: 87px;
+    bottom: 73.4%;
+    background-color: #191919;
+  }
+
+}

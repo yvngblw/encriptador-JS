@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./CSS/Style.css" rel="stylesheet" type="text/css" />
+  <link href="./CSS/StyleQuerys0.css" rel="stylesheet" type="text/css" />
+  <!--UBUNTU-->
+  <link href="./CSS/StyleQuerys1.css" rel="stylesheet" type="text/css" />
+  <!--WINDOWS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  
+
+</head>
+
+<body>
+  <header class="Alura-bar">
+    <a href="https://www.google.com"><img class="image_bar" src="./IMG/deepblue.png"></a>
+    <img class="check-img" src="./IMG/svg/check-mark.svg">
+    <img class="error-img" src="./IMG/svg/error-mark.svg">
+  </header>
+  <div class="parent">
+
+
+    <p class="ALERT_ENCRYPT d-select">ENCRIPTADO!</p>
+    <p class="ALERT_DECRYPT d-select">DESENCRIPTADO!</p>
+    <p class="ALERT_COPY d-select">COPIADO!</p>
+
+
+    <section class="text-encrypt">
+
+      <div class="text-contenedor0">
+        <textarea id="textArea0" placeholder='" Escribe aqui lo que gustes :] "' oninput="userInput(this)"></textarea>
+      </div>
+
+      <div class="buttons">
+        <button id="btn-encrypt">ENCRIPTAR</button>
+        <button id="btn-decrypt">DESENCRIPTAR</button>
+      </div>
+    </section>
+
+    <section class="text-decrypt">
+      <img class="munheco d-select" src="./IMG/svg/idea.svg">
+      <img class="munheco1 d-select" src="./IMG/svg/checklist-error.svg">
+      <img class="no-mesagge d-select" src="IMG/Frame_5.png">
+      <img class="checklist d-select" src="./IMG/svg/list-check.svg">
+      <img class="fatal-search d-select" src="./IMG/svg/search-error.svg">
+      <img class="errorD d-select" src="./IMG/svg/generalError.svg">
+      <img class="errorE d-select" src="./IMG/svg/generalError1.svg">
+
+
+      <div class="text-contenedor1">
+        <textarea id="textArea1" readonly="readonly"></textarea>
+      </div>
+      <button id="btn-copy">COPIAR</button>
+    </section>
+
+    <footer class="footer">
+      <a href="https://github.com/yvngblw"><img class="github-footer" src="./IMG/github.png"></a>
+    </footer>
+
+  </div>
+
+
+  <script src="./JS/app.js" ></script>
+  <script src="./JS/fixIssues.js"></script>
+</body>
+
+</html>
