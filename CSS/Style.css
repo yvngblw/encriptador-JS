@@ -6,16 +6,6 @@
 }
 
 .d-select {
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Chrome/Safari/Opera */
-  -khtml-user-select: none;
-  /* Konqueror */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
   user-select: none;
 }
 
@@ -142,7 +132,6 @@
   left: 15%;
   padding-top: 10%;
   resize: none;
-  text-size-adjust: 10px;
   background-color: transparent;
   text-align: center;
   text-decoration-line: underline;
@@ -230,7 +219,6 @@
   border-style: none;
   font-size: 30px;
   resize: none;
-  text-size-adjust: 10px;
   text-align: center;
   text-decoration-line: none;
   outline: none;
