@@ -12,12 +12,16 @@ function retornarSO() {
   }
   return so
 }
+
 retornarSO();
 
 
 if (so == "Windows") {
   document.styleSheets[1].disabled = true;
 } else if (so == "Linux") {
+  document.styleSheets[2].disabled = true;
+}else {
+  document.styleSheets[1].disabled = true;
   document.styleSheets[2].disabled = true;
 }
 
